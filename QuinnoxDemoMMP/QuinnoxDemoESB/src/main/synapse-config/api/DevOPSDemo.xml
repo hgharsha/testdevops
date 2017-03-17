@@ -2,7 +2,7 @@
 <api context="/quinnox/demo/devops" name="DevOPSDemo" xmlns="http://ws.apache.org/ns/synapse">
   <resource methods="POST GET" protocol="http">
     <inSequence>
-      <log/>
+      <log level="full"/>
       <respond/>
     </inSequence>
     <outSequence/>
